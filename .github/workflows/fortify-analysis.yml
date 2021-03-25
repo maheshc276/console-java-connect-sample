@@ -22,7 +22,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ master ]
   schedule:
-    - cron: '12 5 * * 4'
+    - cron: '20 5 * * 4'
 
 jobs:
   FoD-SAST-Scan:
